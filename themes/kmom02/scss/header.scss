@@ -1,0 +1,21 @@
+.header {
+  background-color: #1b7e82;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+
+
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  font-size: 2rem;
+}
