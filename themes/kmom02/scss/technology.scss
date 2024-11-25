@@ -1,0 +1,54 @@
+.landing-page {
+  display: grid;
+  gap: 1.96rem;
+  margin-bottom: 1.96rem;
+}
+
+.landing-page h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.box {
+  border: 1px solid #ccc;
+  padding: 1.96rem;
+  background-color: #1b8252;
+}
+
+.box.big {
+  border: 1px solid #ccc;
+  padding: 1.96rem;
+  grid-column: span 2;
+}
+
+.box.full {
+  border: 1px solid #ccc;
+  padding: 1.96rem;
+  grid-column: span 3;
+}
+
+.box:hover {
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.technology {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.technology article {
+  width: 60%;
+}
+
+.technology menu {
+  width: 30%;
+}
+
+@media (max-width: 475px) {
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+  }
+}
