@@ -1,12 +1,12 @@
 .header {
-  background-color: #1b7e82;
+  background-color: $main-header-color;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
+  max-width: 100%;
 }
-
 
 
 .site-header {
@@ -18,4 +18,5 @@
 
 .nav a {
   font-size: 2rem;
+  color: $main-header-font-color;
 }

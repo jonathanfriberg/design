@@ -13,6 +13,8 @@
   border: 1px solid #ccc;
   padding: 1.96rem;
   background-color: #1b8252;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .box.big {
@@ -33,13 +35,14 @@
 
 .technology {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   align-items: start;
+  gap: 2rem;
 }
 
 .technology article {
-  width: 60%;
+  width: 50%;
 }
 
 .technology menu {
@@ -50,5 +53,14 @@
   .landing-page {
     display: flex;
     flex-direction: column;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .technology article {
+    width: 100%;
   }
 }

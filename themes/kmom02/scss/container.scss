@@ -1,17 +1,22 @@
 html,
 body {
   height: 100%;
+  // overflow-x: hidden;
 }
 
 body {
   display: flex;
   flex-direction: column;
+  background-color: $main-background-color;
 }
 
 .header,
 .footer {
   flex: 0 0 auto;
   max-width: 100%;
+  display: flex;
+  justify-content: space-between; /* Adjust layout */
+  flex-wrap: wrap; /* Wrap items to prevent overflow */
 }
 
 .main {
@@ -20,4 +25,6 @@ body {
   padding: 2rem;
   margin: 0 auto;
   flex: 1 0 auto;
+  box-sizing: border-box;
+  background-color: $main-background-color;
 }
